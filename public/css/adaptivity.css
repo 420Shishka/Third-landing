@@ -1,0 +1,300 @@
+@media (max-width: 1570px) {
+    /* Article */
+    #article {
+        flex-direction: column;
+    }
+
+    #article-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        padding-top: 4rem;
+    }
+
+     #sidebar-banner {
+        max-width: 100%;
+    }
+
+    .about__picture::before {
+        padding-top: 55%;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 1300px) {
+    /* Header */
+
+    #header {
+        padding: 2rem 4rem;
+    }
+
+    .header__col {
+        align-self: baseline;
+    }
+
+    .header__col:last-child {
+        display: block;
+        align-items: flex-start;
+    }
+
+    .header__col label {
+        display: block;
+   }
+
+   .header__menu {
+       display: none;
+   }
+
+   input[type="checkbox"]:checked ~ label + .header__menu {
+       display: block;
+   }
+
+   .header__link {
+       display: block;
+       text-align: right;
+   }
+
+   .header__link:first-child {
+        padding-top: 1rem;
+   }
+
+   /* Banner */
+
+   #banner {
+        padding: 1rem 4rem 0 4rem;
+   }
+
+   /* Articles */
+
+    #articles-primary,
+    #articles-secondary,
+    #article {
+        padding: 4rem 4rem;
+    }
+
+    .article-container {
+        width: 100%;
+    }
+
+    .article-container:nth-last-child(2) {
+        padding-bottom: 6rem;
+    }
+
+    .article-container:last-child {
+        padding-bottom: 0;
+    }
+
+    #articles__load-container {
+        padding-bottom: 4rem;
+    }
+
+    /* Posts */
+
+    #posts {
+        padding: 2rem 6rem;
+    }
+
+    /* Comments */
+
+    #comments {
+        padding: 2rem 6rem;
+    }
+
+    /* Footer */
+    #footer {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (max-width: 800px) {
+    /* Header */
+
+    #header {
+        padding: .75rem 1rem;
+    }
+
+    .header__link {
+        font-size: 1.25rem;
+    }
+
+    /* Banner */
+
+   #banner {
+    padding: .75rem 1rem 0 1rem;
+}
+
+    /* Articles */
+
+    #articles-primary,
+    #articles-secondary,
+    #article {
+        padding: 1rem 1rem;
+    }
+
+    .article-container {
+        width: 100%;
+        padding-bottom: 2.5rem;
+    }
+
+    .article-container:nth-last-child(2) {
+        padding-bottom: 1.5rem;
+    }
+
+    .article-container:last-child {
+        padding-bottom: 0;
+    }
+
+    .article__category {
+        font-size: 1rem;
+    }
+
+    .article__title,
+    .about__title {
+        padding: 1rem 0;
+        font-size: 1.75rem;
+    }
+
+    .article__preview,
+    .article__text,
+    .article__quote {
+        font-size: 1rem;
+    }
+
+    .article__comment-btn {
+        padding-top: 1rem;
+    }
+
+    .article__comment-btn a {
+        font-size: 1rem;
+    }
+
+    #articles__load-container {
+        padding-bottom: 1rem;
+    }
+
+    #articles__load-btn {
+        padding: 1rem;
+        font-size: 1.25rem;
+    }
+    
+    .article__sharing {
+        font-size: 1rem;
+    }
+
+    /* Subscription */
+
+    #subscription {
+        padding: 1rem 1rem;
+    }
+
+    .subscription__title { 
+        padding-bottom: 1.5rem;
+        font-size: 1.75rem;
+    }
+
+    .subscription__input,
+    .subscription__button {
+        font-size: 1rem;
+    }
+
+    /* Posts */
+
+    #posts {
+        padding: 1rem 1rem;
+    }
+
+    #posts__comment {
+        font-size: 1rem;
+    }
+
+    #posts__row {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .post__col {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .post__title {
+        font-size: 1.75rem;
+        padding-top: 1rem;
+    }
+
+    .post__col:last-child {
+        padding-bottom: 0;
+    }
+
+    /* Sidebar */
+
+    #top-articles__title,
+    .top-articles__name,
+    .top-articles__comments {
+        font-size: 1rem;
+    }
+
+    /* Comments */
+
+    #comments {
+        padding: 1rem 1rem;
+    }
+
+    #comments__preview,
+    .comment__input,
+    .comments__connection {
+        font-size: 1rem;
+    }
+
+    .comment__input {
+        padding: 1rem 1.5rem;
+    }
+
+    .comment {
+        padding-bottom: 2rem;
+    }
+
+    .comment__avatar-container {
+        padding-right: 1rem;
+    }
+
+    .comment__avatar {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .comment__content {
+        font-size: 1rem;
+    }
+
+    .comment__btn-container {
+        padding-top: 1.25rem;
+        padding-left: 3rem;
+    }
+
+    .comment__btn {
+        font-size: 1rem;
+    }
+
+    /* Footer */
+
+    #footer {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    .footer__col,
+    .footer__link {
+        padding-right: 1rem;
+    }
+
+    .footer__col:last-child {
+        padding-right: 0;
+    }
+
+}

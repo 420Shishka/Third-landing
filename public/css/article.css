@@ -1,0 +1,382 @@
+/* Content */
+
+#article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8rem 16rem;
+}
+
+/* Article */
+#article-content {
+    width: 70%;
+}
+
+.article__text {
+    padding-bottom: 3rem;
+    font-size: 1.25rem;
+}
+
+.article__text span {
+    font-weight: 700;
+}
+
+.article__picture {
+    margin-bottom: 5rem;
+}
+
+.article__picture:last-child {
+    margin-bottom: 3rem;
+}
+
+.article__quote {
+    padding: 0 3rem 3rem 3rem;
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+.article__sharing {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    color: #888;
+}
+
+.article__item {
+    padding-left: .5rem;
+    color: #888;
+    text-decoration: none;
+}
+
+.article__item:hover {
+    color: #333;
+}
+
+/* Sidebar */
+
+#sidebar {
+    width: 25%;
+}
+
+.sidebar__section {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 4rem;
+}
+
+.sidebar__section:last-child {
+    padding-bottom: 0;
+}
+
+/* About */
+
+    .about__picture {
+        position: relative;
+        overflow: hidden;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #888;
+        box-shadow: 0 0 4.5rem #ccc;
+    }
+
+    .about__picture::before {
+        content: '';
+        float: left;
+        padding-top: 65%;
+    }
+
+    .about__title {
+        display: inline-block;
+        text-decoration: none;
+        padding: 1.5rem 0;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #333;
+        transition: .3s ease;
+    }
+
+    .about__title:hover {
+        color: #888;
+    }
+
+    .about__preview {
+        display: -webkit-box !important;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        position: relative;
+        overflow: hidden;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+
+    .about__links {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 1.5rem;
+    }
+
+    .about__item {
+        padding-right: .5rem;
+        font-size: 1.25rem;
+        color: #888;
+        text-decoration: none;
+    }
+
+    .about__item:last-child {
+        padding-right: 0;
+    }
+
+    .about__item:hover {
+        color: #333;
+    }
+
+    /* Top-articles */
+
+    #top-articles__title {
+        padding-bottom: 1.5rem;
+        font-family: 'Source Code Pro';
+        font-size: 1.25rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #888;
+    }
+
+    #top-articles__list {
+        color: #888;
+    }
+
+    .top-articles__item {
+        display: flex;
+        list-style-type: none;
+        padding-bottom: 1.5rem;
+    }
+
+    .top-articles__item:last-child {
+        padding-bottom: 0;
+    }
+
+    .top-articles__item-col {
+        flex: 1 1 auto;
+    }
+
+    .top-articles__item-col:first-child {
+        flex: 0 0 auto;
+    }
+
+    .top-articles__item-marker {
+        display: block;
+    }
+
+    .top-articles__item-marker::before {
+        content: '•';
+        position: relative;
+        padding-right: 1rem;
+    }
+
+    .top-articles__name {
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    .top-articles__name:hover {
+        color: #888;
+    }
+
+    .top-articles__comments {
+        padding-top: .5rem;
+        font-family: 'Source Code Pro';
+        text-transform: uppercase;
+        color: #888;
+    }
+
+    /* Sidebar-banner */
+
+    #sidebar-banner {
+        position: relative;
+        overflow: hidden;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #888;
+        box-shadow: 0 0 4.5rem #ccc;
+        max-width: 250px;
+    }
+
+    #sidebar-banner::before {
+        content: '';
+        float: left;
+        padding-top: 250px;
+    }
+
+/* Posts */
+
+#posts {
+    padding: 4rem 16rem;
+    background-color: rgb(226, 226, 226);
+}
+
+#posts__comment {
+    padding-bottom: 2rem;
+    font-family: 'Source Code Pro';
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #888;
+}
+
+#posts__row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.post__col {
+    text-align: center;
+    width: 30%;
+}
+
+.post__img {
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #888;
+    box-shadow: 0 0 4.5rem #ccc;
+}
+
+.post__img::before {
+    content: '';
+    float: left;
+    padding-top: 60%;
+}
+
+.post__title {
+    padding-top: 2rem;
+}
+
+.post__link {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.post__link:hover {
+    color: #888;
+}
+
+/* Comments */
+
+#comments {
+    padding: 4rem 16rem;
+}
+
+#comments__preview {
+    padding-bottom: 2rem;
+    font-family: 'Source Code Pro';
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #888;
+}
+
+.comment {
+    padding-bottom: 4rem;
+}
+
+.comment__content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.comment__avatar-container {
+    flex: 0 0 auto;
+    padding-right: 3rem;
+}
+
+.comment__avatar {
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #888;
+    border-radius: 100%;
+    color: #333;
+}
+
+.comment__avatar::before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+}
+
+.comment__content {
+    font-size: 1.25rem;
+}
+
+.comment__username {
+    padding-bottom: .75rem;
+    font-weight: 700;
+}
+
+.comment__btn-container {
+    padding-top: 1.5rem;
+    padding-left: 9rem;
+}
+
+.comment__btn {
+    border: none;
+    background-color: transparent;
+    font-family: 'Source Code Pro';
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #888;
+    cursor: pointer;
+}
+
+.comment__btn:hover {
+    color: #333;
+}
+
+.comment__message {
+    flex: 1 1 auto;
+}
+
+.comment__input {
+    display: block;
+    padding: 2rem 3rem;
+    border: 1px solid #888;
+    border-radius: .4rem;
+    outline: none;
+    font-family: 'Source Code Pro';
+    font-size: 1.25rem;
+    color: #888;
+    min-height: 6rem;
+    min-width: 100% !important;
+    width: 100% !important;
+}
+
+.comments__connection {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-family: 'Source Code Pro';
+    font-size: 1.25rem;
+    color: #888;
+}
+.comments__item {
+    padding-left: .75rem;
+    color: #888;
+}
+
+.comments__item:hover {
+    color: #333;
+}
